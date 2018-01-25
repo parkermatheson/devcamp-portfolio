@@ -14,4 +14,3 @@ class Portfolio < ApplicationRecord
     self.thumb_image ||= "http://placehold.it/350x200"
   end
 end
-
