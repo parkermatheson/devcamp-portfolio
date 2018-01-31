@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/parkermatheson/park_math_view_tool
+  revision: c49c1c497e829f0a45ac374a97124fe6e981b356
+  specs:
+    park_math_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -191,6 +197,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
+  park_math_view_tool!
   pg (~> 0.18)
   puma (~> 3.7)
   rails (~> 5.1.4)
