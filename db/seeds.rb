@@ -50,3 +50,6 @@ puts "9 Portfolio items created"
 end
 
 puts "3 technologies created"
+
+User.create(name:"Parker Matheson", email:"parkermatheson@gmail.com", password:"asdfjkl;", password_confirmation:"asdfjkl;", role:"site_admin")
+puts "created a default site admin user"
