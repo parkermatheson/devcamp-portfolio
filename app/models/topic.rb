@@ -1,5 +1,6 @@
 class Topic < ApplicationRecord
   validates_presence_of :title
 
-  # has_many :blogs
+  # this next line might need to be commented out.
+  has_many :blogs
 end
