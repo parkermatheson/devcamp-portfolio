@@ -31,6 +31,7 @@ body {
   height: 100%;
   /*background-color: #333;*/
 }
+
 body {
   color: #fff;
   text-align: center;
@@ -38,6 +39,11 @@ body {
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .site-wrapper {
   display: table;
   width: 100%;
@@ -49,10 +55,6 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
-}
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
 }
 
 /* Padding for spacing */
@@ -165,23 +167,17 @@ body {
  * Custom Styles
  */
 
-.card-block {
+.app-card-container {
   color: black;
   text-align: left;
 }
 
-.auth-links a {
-  color: black;
+.app-card-container a {
+  color: blue;
 }
 
-.register-text {
-  text-align: right;
-}
-
-.login > .card {
-  width: 22rem;
-  margin: 0 auto;
-  float: none;
+.app-card-container > .card {
+  padding: 40px;
 }
 
 .app-nav span {
@@ -191,6 +187,29 @@ body {
 
 .app-footer {
   color: white;
+}
+
+.auth-links a {
+  color: black;
+}
+
+.card-block {
+  color: black;
+  text-align: left;
+}
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
+
+.register-text {
+  text-align: right;
 }
 
 .tech-news {
