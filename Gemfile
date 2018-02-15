@@ -43,3 +43,5 @@ gem 'petergate', '~> 1.8', '>= 1.8.1'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'twitter', '~> 6.2'
 gem 'redis', '~> 3.3', '>= 3.3.3'
+gem 'redcarpet', '~> 3.4'
+gem 'coderay', '~> 1.1', '>= 1.1.2'
